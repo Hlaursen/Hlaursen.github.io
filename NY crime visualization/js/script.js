@@ -22,7 +22,7 @@ let rowConverterStack = function(d) {
   }
 
 //CREATE PIE PLOT
-d3.csv("../data/pie.csv", rowConverterPie, function(data) {
+d3.csv("../NY crime visualization/data/pie.csv", rowConverterPie, function(data) {
   //FUNCTIONS
   let handleMouseOver = (slice, d) => {
   	// Use mouse coordinates for tooltip position
